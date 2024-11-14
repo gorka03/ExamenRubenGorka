@@ -49,8 +49,9 @@ fun Horizontal() {
 
         }
 
-        Column {
-            Row {
+        Row {
+            Column {
+
                 Button(onClick = {})
 
                 {
@@ -60,22 +61,21 @@ fun Horizontal() {
                 Button(onClick = {})
 
                 {
-                    Text("4")
+                    Text("2")
                 }
                 Button(onClick = {})
 
                 {
-                    Text("7")
+                    Text("3")
                 }
             }
-        }
-        Column {
 
-            Row {
+            Column {
+
                 Button(onClick = {})
 
                 {
-                    Text("2")
+                    Text("4")
                 }
 
                 Button(onClick = {})
@@ -86,23 +86,21 @@ fun Horizontal() {
                 Button(onClick = {})
 
                 {
-                    Text("8")
+                    Text("6")
                 }
             }
-        }
+            Column {
 
-        Column {
-            Row {
                 Button(onClick = {})
 
                 {
-                    Text("3")
+                    Text("7")
                 }
 
                 Button(onClick = {})
 
                 {
-                    Text("6")
+                    Text("8")
                 }
                 Button(onClick = {})
 
@@ -113,4 +111,70 @@ fun Horizontal() {
 
         }
     }
+
+    /*
+    Column {
+        Row {
+            Button(onClick = {})
+
+            {
+                Text("1")
+            }
+
+            Button(onClick = {})
+
+            {
+                Text("4")
+            }
+            Button(onClick = {})
+
+            {
+                Text("7")
+            }
+        }
+    }
+    Column {
+
+        Row {
+            Button(onClick = {})
+
+            {
+                Text("2")
+            }
+
+            Button(onClick = {})
+
+            {
+                Text("5")
+            }
+            Button(onClick = {})
+
+            {
+                Text("8")
+            }
+        }
+    }
+
+    Column {
+        Row {
+            Button(onClick = {})
+
+            {
+                Text("3")
+            }
+
+            Button(onClick = {})
+
+            {
+                Text("6")
+            }
+            Button(onClick = {})
+
+            {
+                Text("9")
+            }
+        }
+
+    }*/
 }
+
