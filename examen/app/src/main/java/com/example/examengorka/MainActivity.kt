@@ -27,6 +27,8 @@ fun Horizontal() {
     Column {
         Row {
             Column {
+                Text("")
+                Text("")
                 Text("Hello Android!!")
             }
 
@@ -111,70 +113,5 @@ fun Horizontal() {
 
         }
     }
-
-    /*
-    Column {
-        Row {
-            Button(onClick = {})
-
-            {
-                Text("1")
-            }
-
-            Button(onClick = {})
-
-            {
-                Text("4")
-            }
-            Button(onClick = {})
-
-            {
-                Text("7")
-            }
-        }
-    }
-    Column {
-
-        Row {
-            Button(onClick = {})
-
-            {
-                Text("2")
-            }
-
-            Button(onClick = {})
-
-            {
-                Text("5")
-            }
-            Button(onClick = {})
-
-            {
-                Text("8")
-            }
-        }
-    }
-
-    Column {
-        Row {
-            Button(onClick = {})
-
-            {
-                Text("3")
-            }
-
-            Button(onClick = {})
-
-            {
-                Text("6")
-            }
-            Button(onClick = {})
-
-            {
-                Text("9")
-            }
-        }
-
-    }*/
 }
 
